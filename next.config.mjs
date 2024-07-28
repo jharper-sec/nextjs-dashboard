@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    // experimental: {
-    //     ppr: 'incremental',
-    // },
+    reactStrictMode: true,
+    experimental: {
+        ppr: 'incremental',
+    },
 };
 
 export default nextConfig;
